@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "span": "cpp"
+        "span": "cpp",
+        "ov2640cfg.h": "c",
+        "img_data.h": "c"
     }
 }

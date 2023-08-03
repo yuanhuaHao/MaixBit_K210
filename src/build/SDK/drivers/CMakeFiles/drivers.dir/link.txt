@@ -1,0 +1,2 @@
+D:\FreeRTOS\K210\kendryte-toolchain\bin\riscv64-unknown-elf-ar.exe qc libdrivers.a  CMakeFiles/drivers.dir/src/misc/ws2812b/ws2812b.cpp.obj CMakeFiles/drivers.dir/src/network/dm9051.cpp.obj CMakeFiles/drivers.dir/src/storage/sdcard.cpp.obj
+D:\FreeRTOS\K210\kendryte-toolchain\bin\riscv64-unknown-elf-ranlib.exe libdrivers.a
