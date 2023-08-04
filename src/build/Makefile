@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lcd_ov2640
+# Target rules for targets named sdcard_filesystem
 
 # Build rule for target.
-lcd_ov2640: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 lcd_ov2640
-.PHONY : lcd_ov2640
+sdcard_filesystem: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sdcard_filesystem
+.PHONY : sdcard_filesystem
 
 # fast build rule for target.
-lcd_ov2640/fast:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/build
-.PHONY : lcd_ov2640/fast
+sdcard_filesystem/fast:
+	$(MAKE) -f CMakeFiles\sdcard_filesystem.dir\build.make CMakeFiles/sdcard_filesystem.dir/build
+.PHONY : sdcard_filesystem/fast
 
 #=============================================================================
 # Target rules for targets named hal
@@ -213,140 +213,32 @@ lwipcore/fast:
 	$(MAKE) -f third_party\lwip\CMakeFiles\lwipcore.dir\build.make third_party/lwip/CMakeFiles/lwipcore.dir/build
 .PHONY : lwipcore/fast
 
-src/lcd_ov2640/dvp_camera.obj: src/lcd_ov2640/dvp_camera.c.obj
+src/sdcard_filesystem/main.obj: src/sdcard_filesystem/main.c.obj
 
-.PHONY : src/lcd_ov2640/dvp_camera.obj
-
-# target to build an object file
-src/lcd_ov2640/dvp_camera.c.obj:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/dvp_camera.c.obj
-.PHONY : src/lcd_ov2640/dvp_camera.c.obj
-
-src/lcd_ov2640/dvp_camera.i: src/lcd_ov2640/dvp_camera.c.i
-
-.PHONY : src/lcd_ov2640/dvp_camera.i
-
-# target to preprocess a source file
-src/lcd_ov2640/dvp_camera.c.i:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/dvp_camera.c.i
-.PHONY : src/lcd_ov2640/dvp_camera.c.i
-
-src/lcd_ov2640/dvp_camera.s: src/lcd_ov2640/dvp_camera.c.s
-
-.PHONY : src/lcd_ov2640/dvp_camera.s
-
-# target to generate assembly for a file
-src/lcd_ov2640/dvp_camera.c.s:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/dvp_camera.c.s
-.PHONY : src/lcd_ov2640/dvp_camera.c.s
-
-src/lcd_ov2640/jlt32009a.obj: src/lcd_ov2640/jlt32009a.c.obj
-
-.PHONY : src/lcd_ov2640/jlt32009a.obj
+.PHONY : src/sdcard_filesystem/main.obj
 
 # target to build an object file
-src/lcd_ov2640/jlt32009a.c.obj:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/jlt32009a.c.obj
-.PHONY : src/lcd_ov2640/jlt32009a.c.obj
+src/sdcard_filesystem/main.c.obj:
+	$(MAKE) -f CMakeFiles\sdcard_filesystem.dir\build.make CMakeFiles/sdcard_filesystem.dir/src/sdcard_filesystem/main.c.obj
+.PHONY : src/sdcard_filesystem/main.c.obj
 
-src/lcd_ov2640/jlt32009a.i: src/lcd_ov2640/jlt32009a.c.i
+src/sdcard_filesystem/main.i: src/sdcard_filesystem/main.c.i
 
-.PHONY : src/lcd_ov2640/jlt32009a.i
-
-# target to preprocess a source file
-src/lcd_ov2640/jlt32009a.c.i:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/jlt32009a.c.i
-.PHONY : src/lcd_ov2640/jlt32009a.c.i
-
-src/lcd_ov2640/jlt32009a.s: src/lcd_ov2640/jlt32009a.c.s
-
-.PHONY : src/lcd_ov2640/jlt32009a.s
-
-# target to generate assembly for a file
-src/lcd_ov2640/jlt32009a.c.s:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/jlt32009a.c.s
-.PHONY : src/lcd_ov2640/jlt32009a.c.s
-
-src/lcd_ov2640/lcd.obj: src/lcd_ov2640/lcd.c.obj
-
-.PHONY : src/lcd_ov2640/lcd.obj
-
-# target to build an object file
-src/lcd_ov2640/lcd.c.obj:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/lcd.c.obj
-.PHONY : src/lcd_ov2640/lcd.c.obj
-
-src/lcd_ov2640/lcd.i: src/lcd_ov2640/lcd.c.i
-
-.PHONY : src/lcd_ov2640/lcd.i
+.PHONY : src/sdcard_filesystem/main.i
 
 # target to preprocess a source file
-src/lcd_ov2640/lcd.c.i:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/lcd.c.i
-.PHONY : src/lcd_ov2640/lcd.c.i
+src/sdcard_filesystem/main.c.i:
+	$(MAKE) -f CMakeFiles\sdcard_filesystem.dir\build.make CMakeFiles/sdcard_filesystem.dir/src/sdcard_filesystem/main.c.i
+.PHONY : src/sdcard_filesystem/main.c.i
 
-src/lcd_ov2640/lcd.s: src/lcd_ov2640/lcd.c.s
+src/sdcard_filesystem/main.s: src/sdcard_filesystem/main.c.s
 
-.PHONY : src/lcd_ov2640/lcd.s
-
-# target to generate assembly for a file
-src/lcd_ov2640/lcd.c.s:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/lcd.c.s
-.PHONY : src/lcd_ov2640/lcd.c.s
-
-src/lcd_ov2640/main.obj: src/lcd_ov2640/main.c.obj
-
-.PHONY : src/lcd_ov2640/main.obj
-
-# target to build an object file
-src/lcd_ov2640/main.c.obj:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/main.c.obj
-.PHONY : src/lcd_ov2640/main.c.obj
-
-src/lcd_ov2640/main.i: src/lcd_ov2640/main.c.i
-
-.PHONY : src/lcd_ov2640/main.i
-
-# target to preprocess a source file
-src/lcd_ov2640/main.c.i:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/main.c.i
-.PHONY : src/lcd_ov2640/main.c.i
-
-src/lcd_ov2640/main.s: src/lcd_ov2640/main.c.s
-
-.PHONY : src/lcd_ov2640/main.s
+.PHONY : src/sdcard_filesystem/main.s
 
 # target to generate assembly for a file
-src/lcd_ov2640/main.c.s:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/main.c.s
-.PHONY : src/lcd_ov2640/main.c.s
-
-src/lcd_ov2640/ov2640.obj: src/lcd_ov2640/ov2640.c.obj
-
-.PHONY : src/lcd_ov2640/ov2640.obj
-
-# target to build an object file
-src/lcd_ov2640/ov2640.c.obj:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/ov2640.c.obj
-.PHONY : src/lcd_ov2640/ov2640.c.obj
-
-src/lcd_ov2640/ov2640.i: src/lcd_ov2640/ov2640.c.i
-
-.PHONY : src/lcd_ov2640/ov2640.i
-
-# target to preprocess a source file
-src/lcd_ov2640/ov2640.c.i:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/ov2640.c.i
-.PHONY : src/lcd_ov2640/ov2640.c.i
-
-src/lcd_ov2640/ov2640.s: src/lcd_ov2640/ov2640.c.s
-
-.PHONY : src/lcd_ov2640/ov2640.s
-
-# target to generate assembly for a file
-src/lcd_ov2640/ov2640.c.s:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/src/lcd_ov2640/ov2640.c.s
-.PHONY : src/lcd_ov2640/ov2640.c.s
+src/sdcard_filesystem/main.c.s:
+	$(MAKE) -f CMakeFiles\sdcard_filesystem.dir\build.make CMakeFiles/sdcard_filesystem.dir/src/sdcard_filesystem/main.c.s
+.PHONY : src/sdcard_filesystem/main.c.s
 
 # Help Target
 help:
@@ -354,8 +246,8 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... sdcard_filesystem
 	@echo ... edit_cache
-	@echo ... lcd_ov2640
 	@echo ... rebuild_cache
 	@echo ... hal
 	@echo ... freertos
@@ -364,21 +256,9 @@ help:
 	@echo ... posix
 	@echo ... fatfs
 	@echo ... lwipcore
-	@echo ... src/lcd_ov2640/dvp_camera.obj
-	@echo ... src/lcd_ov2640/dvp_camera.i
-	@echo ... src/lcd_ov2640/dvp_camera.s
-	@echo ... src/lcd_ov2640/jlt32009a.obj
-	@echo ... src/lcd_ov2640/jlt32009a.i
-	@echo ... src/lcd_ov2640/jlt32009a.s
-	@echo ... src/lcd_ov2640/lcd.obj
-	@echo ... src/lcd_ov2640/lcd.i
-	@echo ... src/lcd_ov2640/lcd.s
-	@echo ... src/lcd_ov2640/main.obj
-	@echo ... src/lcd_ov2640/main.i
-	@echo ... src/lcd_ov2640/main.s
-	@echo ... src/lcd_ov2640/ov2640.obj
-	@echo ... src/lcd_ov2640/ov2640.i
-	@echo ... src/lcd_ov2640/ov2640.s
+	@echo ... src/sdcard_filesystem/main.obj
+	@echo ... src/sdcard_filesystem/main.i
+	@echo ... src/sdcard_filesystem/main.s
 .PHONY : help
 
 

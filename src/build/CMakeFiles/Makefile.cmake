@@ -70,7 +70,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/lcd_ov2640.dir/DependInfo.cmake"
+  "CMakeFiles/sdcard_filesystem.dir/DependInfo.cmake"
   "SDK/hal/CMakeFiles/hal.dir/DependInfo.cmake"
   "SDK/freertos/CMakeFiles/freertos.dir/DependInfo.cmake"
   "SDK/bsp/CMakeFiles/bsp.dir/DependInfo.cmake"

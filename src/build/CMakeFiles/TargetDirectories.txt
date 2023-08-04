@@ -1,5 +1,5 @@
+D:/FreeRTOS/K210/kendryte-freertos-sdk-develop/src/build/CMakeFiles/sdcard_filesystem.dir
 D:/FreeRTOS/K210/kendryte-freertos-sdk-develop/src/build/CMakeFiles/edit_cache.dir
-D:/FreeRTOS/K210/kendryte-freertos-sdk-develop/src/build/CMakeFiles/lcd_ov2640.dir
 D:/FreeRTOS/K210/kendryte-freertos-sdk-develop/src/build/CMakeFiles/rebuild_cache.dir
 D:/FreeRTOS/K210/kendryte-freertos-sdk-develop/src/build/SDK/CMakeFiles/edit_cache.dir
 D:/FreeRTOS/K210/kendryte-freertos-sdk-develop/src/build/SDK/CMakeFiles/rebuild_cache.dir

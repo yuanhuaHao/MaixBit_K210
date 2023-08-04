@@ -75,6 +75,7 @@ void OV2640_init(void)
         OV2640_WR_Reg(svga_config[i][0], svga_config[i][1]);
         usleep(10);
     }
-*/    
+ */   
+    
 }
 

@@ -64,45 +64,45 @@ CMAKE_SOURCE_DIR = D:\FreeRTOS\K210\kendryte-freertos-sdk-develop
 CMAKE_BINARY_DIR = D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build
 
 #=============================================================================
-# Target rules for target CMakeFiles/lcd_ov2640.dir
+# Target rules for target CMakeFiles/sdcard_filesystem.dir
 
 # All Build rule for target.
-CMakeFiles/lcd_ov2640.dir/all: SDK/bsp/CMakeFiles/bsp.dir/all
-CMakeFiles/lcd_ov2640.dir/all: SDK/freertos/CMakeFiles/freertos.dir/all
-CMakeFiles/lcd_ov2640.dir/all: SDK/hal/CMakeFiles/hal.dir/all
-CMakeFiles/lcd_ov2640.dir/all: SDK/posix/CMakeFiles/posix.dir/all
-CMakeFiles/lcd_ov2640.dir/all: third_party/fatfs/CMakeFiles/fatfs.dir/all
-CMakeFiles/lcd_ov2640.dir/all: SDK/drivers/CMakeFiles/drivers.dir/all
-CMakeFiles/lcd_ov2640.dir/all: third_party/lwip/CMakeFiles/lwipcore.dir/all
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/depend
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=39,40,41 "Built target lcd_ov2640"
-.PHONY : CMakeFiles/lcd_ov2640.dir/all
+CMakeFiles/sdcard_filesystem.dir/all: SDK/hal/CMakeFiles/hal.dir/all
+CMakeFiles/sdcard_filesystem.dir/all: SDK/bsp/CMakeFiles/bsp.dir/all
+CMakeFiles/sdcard_filesystem.dir/all: SDK/drivers/CMakeFiles/drivers.dir/all
+CMakeFiles/sdcard_filesystem.dir/all: SDK/freertos/CMakeFiles/freertos.dir/all
+CMakeFiles/sdcard_filesystem.dir/all: SDK/posix/CMakeFiles/posix.dir/all
+CMakeFiles/sdcard_filesystem.dir/all: third_party/fatfs/CMakeFiles/fatfs.dir/all
+CMakeFiles/sdcard_filesystem.dir/all: third_party/lwip/CMakeFiles/lwipcore.dir/all
+	$(MAKE) -f CMakeFiles\sdcard_filesystem.dir\build.make CMakeFiles/sdcard_filesystem.dir/depend
+	$(MAKE) -f CMakeFiles\sdcard_filesystem.dir\build.make CMakeFiles/sdcard_filesystem.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=99,100 "Built target sdcard_filesystem"
+.PHONY : CMakeFiles/sdcard_filesystem.dir/all
 
 # Include target in all.
-all: CMakeFiles/lcd_ov2640.dir/all
+all: CMakeFiles/sdcard_filesystem.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lcd_ov2640.dir/rule: cmake_check_build_system
+CMakeFiles/sdcard_filesystem.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 100
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/lcd_ov2640.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/sdcard_filesystem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 0
-.PHONY : CMakeFiles/lcd_ov2640.dir/rule
+.PHONY : CMakeFiles/sdcard_filesystem.dir/rule
 
 # Convenience name for target.
-lcd_ov2640: CMakeFiles/lcd_ov2640.dir/rule
+sdcard_filesystem: CMakeFiles/sdcard_filesystem.dir/rule
 
-.PHONY : lcd_ov2640
-
-# clean rule for target.
-CMakeFiles/lcd_ov2640.dir/clean:
-	$(MAKE) -f CMakeFiles\lcd_ov2640.dir\build.make CMakeFiles/lcd_ov2640.dir/clean
-.PHONY : CMakeFiles/lcd_ov2640.dir/clean
+.PHONY : sdcard_filesystem
 
 # clean rule for target.
-clean: CMakeFiles/lcd_ov2640.dir/clean
+CMakeFiles/sdcard_filesystem.dir/clean:
+	$(MAKE) -f CMakeFiles\sdcard_filesystem.dir\build.make CMakeFiles/sdcard_filesystem.dir/clean
+.PHONY : CMakeFiles/sdcard_filesystem.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sdcard_filesystem.dir/clean
 
 .PHONY : clean
 
@@ -161,7 +161,7 @@ SDK/hal/preinstall:
 SDK/hal/CMakeFiles/hal.dir/all:
 	$(MAKE) -f SDK\hal\CMakeFiles\hal.dir\build.make SDK/hal/CMakeFiles/hal.dir/depend
 	$(MAKE) -f SDK\hal\CMakeFiles\hal.dir\build.make SDK/hal/CMakeFiles/hal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=35,36,37,38 "Built target hal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=36,37,38,39 "Built target hal"
 .PHONY : SDK/hal/CMakeFiles/hal.dir/all
 
 # Include target in all.
@@ -218,7 +218,7 @@ SDK/freertos/CMakeFiles/freertos.dir/all: third_party/fatfs/CMakeFiles/fatfs.dir
 SDK/freertos/CMakeFiles/freertos.dir/all: third_party/lwip/CMakeFiles/lwipcore.dir/all
 	$(MAKE) -f SDK\freertos\CMakeFiles\freertos.dir\build.make SDK/freertos/CMakeFiles/freertos.dir/depend
 	$(MAKE) -f SDK\freertos\CMakeFiles\freertos.dir\build.make SDK/freertos/CMakeFiles/freertos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34 "Built target freertos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35 "Built target freertos"
 .PHONY : SDK/freertos/CMakeFiles/freertos.dir/all
 
 # Include target in all.
@@ -228,7 +228,7 @@ all: SDK/freertos/CMakeFiles/freertos.dir/all
 
 # Build rule for subdir invocation for target.
 SDK/freertos/CMakeFiles/freertos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 71
 	$(MAKE) -f CMakeFiles\Makefile2 SDK/freertos/CMakeFiles/freertos.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 0
 .PHONY : SDK/freertos/CMakeFiles/freertos.dir/rule
@@ -270,13 +270,13 @@ SDK/bsp/preinstall:
 # Target rules for target SDK/bsp/CMakeFiles/bsp.dir
 
 # All Build rule for target.
-SDK/bsp/CMakeFiles/bsp.dir/all: SDK/freertos/CMakeFiles/freertos.dir/all
 SDK/bsp/CMakeFiles/bsp.dir/all: SDK/hal/CMakeFiles/hal.dir/all
+SDK/bsp/CMakeFiles/bsp.dir/all: SDK/freertos/CMakeFiles/freertos.dir/all
 SDK/bsp/CMakeFiles/bsp.dir/all: third_party/fatfs/CMakeFiles/fatfs.dir/all
 SDK/bsp/CMakeFiles/bsp.dir/all: third_party/lwip/CMakeFiles/lwipcore.dir/all
 	$(MAKE) -f SDK\bsp\CMakeFiles\bsp.dir\build.make SDK/bsp/CMakeFiles/bsp.dir/depend
 	$(MAKE) -f SDK\bsp\CMakeFiles\bsp.dir\build.make SDK/bsp/CMakeFiles/bsp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target bsp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target bsp"
 .PHONY : SDK/bsp/CMakeFiles/bsp.dir/all
 
 # Include target in all.
@@ -286,7 +286,7 @@ all: SDK/bsp/CMakeFiles/bsp.dir/all
 
 # Build rule for subdir invocation for target.
 SDK/bsp/CMakeFiles/bsp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 88
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 90
 	$(MAKE) -f CMakeFiles\Makefile2 SDK/bsp/CMakeFiles/bsp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 0
 .PHONY : SDK/bsp/CMakeFiles/bsp.dir/rule
@@ -328,13 +328,13 @@ SDK/drivers/preinstall:
 # Target rules for target SDK/drivers/CMakeFiles/drivers.dir
 
 # All Build rule for target.
-SDK/drivers/CMakeFiles/drivers.dir/all: SDK/freertos/CMakeFiles/freertos.dir/all
 SDK/drivers/CMakeFiles/drivers.dir/all: SDK/hal/CMakeFiles/hal.dir/all
+SDK/drivers/CMakeFiles/drivers.dir/all: SDK/freertos/CMakeFiles/freertos.dir/all
 SDK/drivers/CMakeFiles/drivers.dir/all: third_party/fatfs/CMakeFiles/fatfs.dir/all
 SDK/drivers/CMakeFiles/drivers.dir/all: third_party/lwip/CMakeFiles/lwipcore.dir/all
 	$(MAKE) -f SDK\drivers\CMakeFiles\drivers.dir\build.make SDK/drivers/CMakeFiles/drivers.dir/depend
 	$(MAKE) -f SDK\drivers\CMakeFiles\drivers.dir\build.make SDK/drivers/CMakeFiles/drivers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=19,20 "Built target drivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=20,21 "Built target drivers"
 .PHONY : SDK/drivers/CMakeFiles/drivers.dir/all
 
 # Include target in all.
@@ -344,7 +344,7 @@ all: SDK/drivers/CMakeFiles/drivers.dir/all
 
 # Build rule for subdir invocation for target.
 SDK/drivers/CMakeFiles/drivers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 72
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 73
 	$(MAKE) -f CMakeFiles\Makefile2 SDK/drivers/CMakeFiles/drivers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 0
 .PHONY : SDK/drivers/CMakeFiles/drivers.dir/rule
@@ -386,13 +386,13 @@ SDK/posix/preinstall:
 # Target rules for target SDK/posix/CMakeFiles/posix.dir
 
 # All Build rule for target.
-SDK/posix/CMakeFiles/posix.dir/all: SDK/freertos/CMakeFiles/freertos.dir/all
 SDK/posix/CMakeFiles/posix.dir/all: SDK/hal/CMakeFiles/hal.dir/all
+SDK/posix/CMakeFiles/posix.dir/all: SDK/freertos/CMakeFiles/freertos.dir/all
 SDK/posix/CMakeFiles/posix.dir/all: third_party/fatfs/CMakeFiles/fatfs.dir/all
 SDK/posix/CMakeFiles/posix.dir/all: third_party/lwip/CMakeFiles/lwipcore.dir/all
 	$(MAKE) -f SDK\posix\CMakeFiles\posix.dir\build.make SDK/posix/CMakeFiles/posix.dir/depend
 	$(MAKE) -f SDK\posix\CMakeFiles\posix.dir\build.make SDK/posix/CMakeFiles/posix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target posix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=93,94,95,96,97,98 "Built target posix"
 .PHONY : SDK/posix/CMakeFiles/posix.dir/all
 
 # Include target in all.
@@ -468,7 +468,7 @@ third_party/fatfs/preinstall:
 third_party/fatfs/CMakeFiles/fatfs.dir/all:
 	$(MAKE) -f third_party\fatfs\CMakeFiles\fatfs.dir\build.make third_party/fatfs/CMakeFiles/fatfs.dir/depend
 	$(MAKE) -f third_party\fatfs\CMakeFiles\fatfs.dir\build.make third_party/fatfs/CMakeFiles/fatfs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=21,22,23 "Built target fatfs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=22,23 "Built target fatfs"
 .PHONY : third_party/fatfs/CMakeFiles/fatfs.dir/all
 
 # Include target in all.
@@ -478,7 +478,7 @@ all: third_party/fatfs/CMakeFiles/fatfs.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/fatfs/CMakeFiles/fatfs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 third_party/fatfs/CMakeFiles/fatfs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 0
 .PHONY : third_party/fatfs/CMakeFiles/fatfs.dir/rule
@@ -523,12 +523,12 @@ third_party/lwip/preinstall:
 third_party/lwip/CMakeFiles/lwipcore.dir/all:
 	$(MAKE) -f third_party\lwip\CMakeFiles\lwipcore.dir\build.make third_party/lwip/CMakeFiles/lwipcore.dir/depend
 	$(MAKE) -f third_party\lwip\CMakeFiles\lwipcore.dir\build.make third_party/lwip/CMakeFiles/lwipcore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target lwipcore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92 "Built target lwipcore"
 .PHONY : third_party/lwip/CMakeFiles/lwipcore.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/lwip/CMakeFiles/lwipcore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 53
 	$(MAKE) -f CMakeFiles\Makefile2 third_party/lwip/CMakeFiles/lwipcore.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\FreeRTOS\K210\kendryte-freertos-sdk-develop\src\build\CMakeFiles 0
 .PHONY : third_party/lwip/CMakeFiles/lwipcore.dir/rule
